@@ -1,0 +1,119 @@
+@media only screen and (min-width: 1000px) {
+    .trynow {
+      display: flex;
+      flex-direction: row-reverse;
+      position: relative;
+      background-color: #c4dffd;
+    }
+  
+    .trynow-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 32px 7vw;
+      width: 50vw;
+    }
+  
+    .placeholder.MceIDuOp_oE7i7G45nnUy {
+      margin-bottom: 32px;
+    }
+  
+    .trynow-container-content {
+      padding: 32px 7vw;
+      text-align: center;
+    }
+  
+  
+    .svg .svg-container {
+      display: inline-block;
+      height: 0.7em;
+      width: auto;
+      vertical-align: middle;
+      fill: currentColor;
+      position: relative;
+      z-index: 1;
+    }
+  
+    .input-container {
+      display: flex;
+      align-items: center;
+      border-radius: 100px;
+      border: 1px solid #1d1d28;
+      box-shadow: 3px 3px 0px #1d1d28;
+      background-color: #fff;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 100%;
+    }
+  
+    .placeholder.placeholder-container {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+  
+    .input-container svg {
+      width: 20px;
+      height: auto;
+    }
+  
+    .input-container .placeholder-liink{
+      margin-right: 2px;
+    }
+  
+    .input-container .placeholder-yourname {
+      background: transparent;
+      border-radius: 0;
+      flex: 1;
+      margin: 0;
+      padding: 0;
+      cursor: inherit;
+      border: none;
+      appearance: none;
+      font: inherit;
+    }
+  
+    .input-container  {
+      white-space: nowrap;
+    }
+  
+    .placeholder._1FcBEpryJUwkWErcHrlXR_ {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  
+    .placeholder.button-padding {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+  
+    .button  {
+      cursor: pointer;
+      border-radius: 100px;
+      font-weight: 800;
+      background: #1d1d28;
+      color: #fff;
+      display: inline-block;
+      white-space: nowrap;
+      text-align: center;
+      font-size: 16px;
+      line-height: 100%;
+      padding-left: 24px;
+      padding-right: 24px;
+      cursor: pointer;
+    }
+  
+    .img-container {
+      position: relative;
+      overflow: hidden;
+      min-height: 80vh;
+      width: 50vw;
+    }
+  
+    .img-container img {
+      height: 110%;
+      position: absolute;
+      right: 0;
+      bottom: -20%;
+    }
+  }
+  

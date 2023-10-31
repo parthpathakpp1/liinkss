@@ -1,0 +1,79 @@
+/* Navbar.css */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    height: 73px;
+    border-bottom: 1px solid #1d1d28;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    z-index: 1001;
+}
+
+.navbar .nav-link-container {
+    display: flex;
+}
+
+.navbar .nav-a-link {
+    border-right: 1px solid #1d1d28;
+}
+
+.navbar .nav-a-link, 
+.navbar .helz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.nav-link1 ._3tMbe2UiQRzWO6eN46889G {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+._2bFTsP4fuxDT032gJgpb-A._2QQ_vK-tKcrjTX_xhHPfNB {
+    cursor: pointer;
+}
+
+.nav-link-style{
+    text-decoration: none;
+    color: inherit;
+    user-select: none;
+    display: block;
+}
+
+.navbar .nav-a-link svg {
+    height: 35px;
+}
+
+.navbar .helz.left-links:not(:last-child) {
+    border-right: 1px solid #1d1d28;
+}
+
+.navbar .helz {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.navbar .helz.nav-border-left:not(:first-child) {
+    border-left: 1px solid #1d1d28;
+}
+
+.nav-link1 .plus-svg     {
+    padding-left: 8px;
+}
+
+/*  */
+
+.navbar .n-A9gJwuH6TSBBIZeirHC {
+    width: 24px !important;
+    height: auto !important;
+    margin-left: 4px;
+}

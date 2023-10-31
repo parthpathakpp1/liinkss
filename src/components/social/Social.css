@@ -1,0 +1,120 @@
+.social {
+    display: flex;
+    border-bottom: 1px solid #1d1d28;
+  }
+  
+  .social-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 32px 7vw;
+  }
+  
+  .social-container .social-cotainer-div {
+    max-width: 500px;
+  }
+  
+  .social-content-style {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 110%;
+  }
+  
+  .svg {
+    display: inline-block;
+    height: 0.7em;
+    width: auto;
+    vertical-align: middle;
+    fill: currentColor;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .span-instagram {
+    position: relative;
+  }
+  
+  .span-instagram .insta {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .span-instagram.span-instagram-bg .background {
+    background: #f4def6;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0.85em;
+    bottom: 0.15em;
+    left: -3%;
+    right: -3%;
+  }
+  
+  .social-content-padding {
+    margin-bottom: 24px;
+  }
+  
+  .social-para-style {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+  }
+  
+  .button-padding {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .button-padding1 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+
+ 
+  
+  .social-img {
+    border-right: 1px solid #1d1d28;
+    width: 50%;
+  }
+ 
+  @media only screen and (max-width: 768px) {
+    .social {
+      flex-direction: column;
+    }
+    
+    
+  
+    .social-container {
+      width: 100%;
+      padding: 24px;
+    }
+  
+    .social-img {
+      border-right: none;
+      border-bottom: 1px solid #1d1d28;
+      width: 100%;
+    }
+  
+    .social-content-style {
+      font-size: 36px;
+      text-align: center;
+    }
+  
+    .social-para-style {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .button-padding {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  
+    .button-padding1 {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }

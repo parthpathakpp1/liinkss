@@ -1,0 +1,137 @@
+/* Default styles for larger screens */
+@media only screen and (min-width: 1000px) {
+    .whouse {
+        display: flex;
+        overflow-x: auto;
+        align-items: center;
+        height: 90vh;
+        position: relative;
+        padding-left: 7vw;
+        padding-right: 7vw;
+        border-bottom: 1px solid #1d1d28;
+    }
+
+    .CkRhNQ3dpd8kLmj3iVYR7 {
+        min-width: 350px;
+    }
+
+    .whouse-container.whouse-conainer-style {
+        margin-bottom: 32px;
+    }
+
+    .whouse-heading {
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 110%;
+    }
+
+    .span-container {
+        position: relative;
+    }
+
+    .span-container .span-use {
+        position: relative;
+        z-index: 1;
+    }
+
+    .span-container .QypgFBYhh1uMDyXIF8L4A {
+        background: #ffec9d;
+    }
+
+    .span-container .QypgFBYhh1uMDyXIF8L4A {
+        position: absolute;
+        top: 0.85em;
+        bottom: 0.15em;
+        left: -3%;
+        right: -3%;
+    }
+
+    .svg._1K954f7VHrpJcxUTNi_9yh {
+        display: inline-block;
+        height: 0.7em;
+        width: auto;
+        vertical-align: middle;
+        fill: currentColor;
+        position: relative;
+        z-index: 1;
+    }
+
+    .whouse-container.whouse-conainer-style {
+        margin-bottom: 32px;
+    }
+
+    .whouse-container-style {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+    }
+
+    .whouse-container._1FcBEpryJUwkWErcHrlXR_ {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .whouse-container.T_YmFjtNnTLaOXdnGbAc6 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    ._2bFTsP4fuxDT032gJgpb-A._2QQ_vK-tKcrjTX_xhHPfNB {
+        cursor: pointer;
+    }
+
+    ._1JpqDpdb11OTIEYgAz8Vw6 {
+        cursor: pointer;
+        border-radius: 100px;
+        font-weight: 800;
+        background: #1d1d28;
+        color: #fff;
+        display: inline-block;
+        white-space: nowrap;
+        text-align: center;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .DsIbzPXeoFnCGKRrlowWP {
+        display: flex;
+        position: relative;
+        align-items: center;
+        height: 100%;
+    }
+
+    ._2VY36CjQQRBA0WOlh6lcfG {
+        height: 90%;
+        width: auto;
+        cursor: pointer;
+    }
+}
+
+/* Media queries for mobile responsiveness */
+@media only screen and (max-width: 999px) {
+    .whouse {
+        flex-direction: column;
+        height: auto;
+        padding: 16px;
+    }
+
+    .whouse-container {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .whouse-heading {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .whouse-container-style {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    ._1JpqDpdb11OTIEYgAz8Vw6 {
+        padding: 12px 16px;
+    }
+}
